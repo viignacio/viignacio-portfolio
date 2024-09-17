@@ -39,13 +39,13 @@ function Hero() {
           <TypingAnimation
             strings={[
               '"Hello, World!"',
-              "I'm a developer.",
+              "I'm a software tester.",
             ]}
             autoStart={true}
           />
         </h1>
         <p class="text-xl mt-4">
-          I build web applications and websites using modern technologies.
+          I break stuff made by devs so we can build them better.
         </p>
       </div>
       <SpinningModel />
@@ -119,15 +119,27 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Full Stack Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Sep 2023 - Apr 2024",
+      title: "Senior QA Engineer",
+      company: "Outliant",
+      timePeriod: "Feb 2024 - Present",
+      location: "Texas, USA",
+    },
+    {
+      title: "QA Lead",
+      company: "CodersForHire Inc. | IONA",
+      timePeriod: "Jan 2021 - Feb 2024",
       location: "Vienna, Austria",
     },
     {
-      title: "Junior Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Feb 2023 - Sep 2023",
+      title: "Head of Software QA",
+      company: "TF Technology Services Inc.",
+      timePeriod: "Dec 2018 - Dec 2020",
+      location: "Vienna, Austria",
+    },
+    {
+      title: "Software Test Engineer II",
+      company: "KYOCERA Document Solutions Development Philippines, Inc",
+      timePeriod: "Aug 2015 - Dec 2018",
       location: "Vienna, Austria",
     },
   ];
